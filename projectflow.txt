@@ -16,11 +16,17 @@
 5. Go back to project >> "Get Connnection String" >> "Drivers" >> {Driver:Python, Version:3.6 or later}
     >> copy and save the connnection string with you (replace password). >> Done.
 6. Create folder "notebook" >> create file "mongoDB_demo.ipynb" >> select kernel>python kernel>visa >>
-7. Kaggle Data link : 
+7. Dataset added to notebook folder.
 8. Push your data to mongoDB database from your python notebook.
 9. Go to mongoDB Atlas >> Database >> browse collection >> see your data in key value format
 
 akhil6july2003_db_user
 cR8et0dS7DNncBxo
 
-connnection string : mongodb+srv://akhil6july2003_db_user:<db_password>@cluster0.v5868ih.mongodb.net/?appName=Cluster0
+connnection string : mongodb+srv://akhil6july2003_db_user:cR8et0dS7DNncBxo@cluster0.v5868ih.mongodb.net/?appName=Cluster0
+
+
+-----------------------Logging, Exception and Notebooks---------------------------
+1. Write the logger file and test it on demo.py
+2. Write the exception file and test it on demo.py
+3. EDA and Feature Engineering notebook added.
