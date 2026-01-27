@@ -1,0 +1,26 @@
+1. Create project template by executing template.py file
+2. Write the code on setup.py and pyproject.toml file to import local packages
+3. Create a virtual env, activate it and install the requirements from requirements.txt
+    conda create -n vehicle_insurance python=3.10 -y
+    conda activate vehicle_insurance
+    add required modules to requirements.txt
+    Do 'pip install -r requirements.txt'
+4. Do a 'pip list' on terminal to make sure you have local packages installed.
+
+
+------------------------MongoDB Setup-------------------------
+1. Sign up to MongoDB Atlas and create a new project by just providing it a name then next create.
+2. From "Create a cluster" screen, hit "create", Select M0 service keeping other services as default, hit "create deployment"/
+3. Setup the username and password and then creat DB user.
+4. Go to "network access" and add ip address - "0.0.0.0/0" so that we can access it from anywhere.
+5. Go back to project >> "Get Connnection String" >> "Drivers" >> {Driver:Python, Version:3.6 or later}
+    >> copy and save the connnection string with you (replace password). >> Done.
+6. Create folder "notebook" >> create file "mongoDB_demo.ipynb" >> select kernel>python kernel>visa >>
+7. Kaggle Data link : 
+8. Push your data to mongoDB database from your python notebook.
+9. Go to mongoDB Atlas >> Database >> browse collection >> see your data in key value format
+
+akhil6july2003_db_user
+cR8et0dS7DNncBxo
+
+connnection string : mongodb+srv://akhil6july2003_db_user:<db_password>@cluster0.v5868ih.mongodb.net/?appName=Cluster0
