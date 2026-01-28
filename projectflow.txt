@@ -30,3 +30,16 @@ connnection string : mongodb+srv://akhil6july2003_db_user:cR8et0dS7DNncBxo@clust
 1. Write the logger file and test it on demo.py
 2. Write the exception file and test it on demo.py
 3. EDA and Feature Engineering notebook added.
+
+
+
+
+------------------------Data Ingestion------------------------------
+1. Before we work on "Data Ingestion" component >> Declare variables within constants.__init__.py file
+2. Add code to configuration.mongo_db_connections.py and define the function for mongodb connnection
+3. Now create a new dir "data_access", then a new file inside named proj1_data that will use mongo_db_connections.py to connect with DB, fetch data in key-val format and transform that to default
+4. Add code to entity.config_entity.py file till DataIngestionConfig class
+5. Add code to entity.artifact_entity.py file till DataIngestionArtifact class
+6. Add code to components.data_ingestion.py file
+7. Add code to training pipeline
+8. Run demo.py (set mongoDB connection url first)
