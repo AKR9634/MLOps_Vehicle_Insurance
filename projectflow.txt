@@ -37,9 +37,25 @@ connnection string : mongodb+srv://akhil6july2003_db_user:cR8et0dS7DNncBxo@clust
 ------------------------Data Ingestion------------------------------
 1. Before we work on "Data Ingestion" component >> Declare variables within constants.__init__.py file
 2. Add code to configuration.mongo_db_connections.py and define the function for mongodb connnection
-3. Now create a new dir "data_access", then a new file inside named proj1_data that will use mongo_db_connections.py to connect with DB, fetch data in key-val format and transform that to default
+3. Now inside "data_access" folder, create a new file named proj1_data that will use mongo_db_connections.py to connect with DB, fetch data in key-val format and transform that to default
 4. Add code to entity.config_entity.py file till DataIngestionConfig class
 5. Add code to entity.artifact_entity.py file till DataIngestionArtifact class
 6. Add code to components.data_ingestion.py file
 7. Add code to training pipeline
 8. Run demo.py (set mongoDB connection url first)
+9. *** To setup the connection url on powershell ***
+    set : $env:MONGODB_URL = "mongodb+srv://<username>:<password>" 
+    check : echo $env:MONGODB_URL
+
+    username : akhil6july2003_db_user
+    password : 6SayCK5RHELu5zia
+    MONGODB_URL : mongodb+srv://akhil6july2003_db_user:6SayCK5RHELu5zia@cluster0.v5868ih.mongodb.net/
+
+
+
+
+--------------------Data Validation, Data Transformation and Model Trainer-------------------------
+1. Complete the work on utils.main_utils.py and config.schema.yaml file (add entire info about dataset for data validation step)
+2. Now work on the "Data Validation" component the way we did for Data Ingestion.
+3. Now work on the "Data Tranformation" component the way we did in above step and add estimator.py to entity folder.
+4. NOw work on the "Model Trainer" component the way we did in above way and add class to estimator.py in entity folder.
