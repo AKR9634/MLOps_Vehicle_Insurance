@@ -1,18 +1,3 @@
-Absolutely — now we’ll turn this into a **⭐ GitHub-star magnet + recruiter-scanner-friendly README**.
-
-Key optimizations I’m applying:
-
-* 🔥 Strong **opening pitch** (what problem, why it matters)
-* 👀 **Scannable sections** (bullet-heavy, short paragraphs)
-* 🏷️ **Professional badges**
-* 🧑‍💼 **Recruiter keywords** (MLOps, CI/CD, AWS, Production ML)
-* 🚫 **No exposed credentials**
-* 📈 Emphasis on **impact, architecture, automation**
-
-Below is a **polished, final README.md** you can paste directly.
-
----
-
 # 🚗 Vehicle Insurance MLOps Project
 
 ### End-to-End Production-Grade Machine Learning Pipeline on AWS
@@ -260,7 +245,7 @@ docker run -p 5000:5000 vehicle-insurance
 ## 👤 Author
 
 **Akhil**
-Aspiring **MLOps / Machine Learning Engineer**
+: Aspiring **MLOps / Machine Learning Engineer**
 Focused on building **scalable, production ML systems**
 
 📫 *Open to internships & full-time roles*
